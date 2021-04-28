@@ -14,7 +14,7 @@ public class Task6_7_8 {
         System.out.println(name);
         int birthYear = 2000;
         System.out.println("  " + birthYear);
-        int num = (int) E;
+        int num = (int) E / 5;
         System.out.println("E = " + num);
         String nameValue = String.valueOf(E + r + i + c + k);
         System.out.println(name + "--" + nameValue);
