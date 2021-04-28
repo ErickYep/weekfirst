@@ -7,10 +7,10 @@ public class Task15 {
         System.out.print("Enter the number - ");
         int number = scanner.nextInt();
         int reminder = number%2;
-        Boolean odd ;
+        boolean odd ;
         if (reminder == 0) {
             odd = true;
-            System.out.println("your nnumber is odd");
+            System.out.println("your number is odd");
         }
         else {
             odd = false;
