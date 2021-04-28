@@ -1,10 +1,12 @@
+package Day2;
+
 import java.util.Random;
 
-public class Task14 {
+public class Task12 {
+    //generateing Random number
     public static void main(String[] args) {
-        //generateing Random number from 15 to 30
         Random random = new Random();
-        int randomNumber = random.nextInt(15) + 15;
+        int randomNumber = random.nextInt();
         System.out.println(randomNumber);
 
     }

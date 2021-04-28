@@ -1,18 +1,20 @@
+package Day2;
+
 import java.util.Scanner;
 
 public class triangle {
     public static void main(String[] args) {
         // calculating squares
-        System.out.println("if it right-angled triangle press 1\n"+"if it square press 2\n"+"if it rectangle press 3");
+        System.out.println("if it right-angled Day2.triangle press 1\n"+"if it square press 2\n"+"if it rectangle press 3");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         switch(number) {
             case 1:
-                System.out.print("Enter the first side of your right-angeled triangle");
+                System.out.print("Enter the first side of your right-angeled Day2.triangle");
                 int num1 = scanner.nextInt();
-                System.out.print("Enter the second side of your right-angeled triangle");
+                System.out.print("Enter the second side of your right-angeled Day2.triangle");
                 int num2 = scanner.nextInt();
-                System.out.println("your triangle square is " + (num1*num2/2));
+                System.out.println("your Day2.triangle square is " + (num1*num2/2));
                 break;
             case 2:
                 System.out.print("Enter the side of your square - ");

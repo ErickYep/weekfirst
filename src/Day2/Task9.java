@@ -1,3 +1,5 @@
+package Day2;
+
 public class Task9 {
     public static void main(String[] args) {
         //It's an arithmetic sequence
