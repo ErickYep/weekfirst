@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
+        //Voting eligible
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Your age - ");
         int age = scanner.nextInt();
